@@ -1,9 +1,13 @@
 //your JS code here. If required.
 
-let a = prompt();
+let a = prompt() * 2;
 
 let b = prompt();
 
-let result = a * 2 + b;
+let result = 0;
 
-console.log("The final result is: " +result);
+result = result + a + b ;
+
+
+
+alert("The final result is: " +result);
